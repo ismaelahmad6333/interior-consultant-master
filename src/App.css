@@ -158,18 +158,56 @@ p {
   font-size: 0.875rem;
   padding: 0.5rem;
 }
-
-.nav .nav-center .nav-header ul {
+.nav .nav-center .nav-header ul li:nth-of-type(1) {
+  border-bottom: 2px solid var(--clr-white);
+}
+.nav .nav-center .nav-header .links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
 }
 
-.nav .nav-center .nav-header ul li:nth-of-type(1) {
-  border-bottom: 2px solid var(--clr-white);
+.nav .nav-center .nav-header .btn {
+  display: none;
+  background-color: #181719;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+.nav .nav-center .nav-header .btn:hover {
+  rotate: 90deg;
+}
+
+.show-links {
+  height: 11rem !important;
+  /* overflow: hidden; */
+  transition: all 0.3s ease-in;
+  filter: blur(0.3px);
+  border-radius: 5px;
+  padding: 0.3rem 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav .nav-center .nav-header .btn {
+    display: block;
+  }
+
+  .nav .nav-center .nav-header .links {
+    position: absolute;
+    top: 20%;
+    height: 0;
+    overflow: hidden;
+    /* height: 10rem; */
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    width: 360px;
+  }
+}
 /* Hero section */
 
 main .hero {
@@ -256,4 +294,18 @@ main .hero .designer .profile .job {
 main .hero .designer h4 {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
+  main .hero {
+    flex-direction: column;
+  }
+  main .hero img {
+    max-width: 400px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  main .hero .designer {
+    width: 20rem;
+  }
 }
