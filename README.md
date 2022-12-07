@@ -3,7 +3,7 @@
 <h1 align="center">Interior Consultant</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" target="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" >Devchallenges.io</a>.
+   Solution for a challenge from <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" target="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" >Devchallenges.io</a>.
 </div>
 
 
