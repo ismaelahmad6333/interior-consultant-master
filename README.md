@@ -20,7 +20,7 @@
 
 ## Challenge
 
- Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:
+ Create a homepage following the design.The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:
 ### User Story
   - I can see a page following the given design
   - On mobile, I can see a collapsed navigation
